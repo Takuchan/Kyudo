@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/addplayerc"
+        android:icon="@drawable/playeradd"
+        android:title="選手登録"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/button12"
+        android:icon="@drawable/listplayer"
+        android:title="選手一覧"
+        app:showAsAction="ifRoom" />
+</menu>
