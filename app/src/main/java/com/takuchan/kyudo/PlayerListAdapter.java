@@ -12,12 +12,14 @@ import androidx.annotation.Nullable;
 
 import io.realm.OrderedRealmCollection;
 import io.realm.RealmBaseAdapter;
+import io.realm.RealmResults;
 
 public class PlayerListAdapter extends RealmBaseAdapter<Player> {
     String colorname;
     public PlayerListAdapter(@Nullable OrderedRealmCollection<Player> data) {
         super(data);
     }
+
 
     private static class ViewHolder{
         TextView name;

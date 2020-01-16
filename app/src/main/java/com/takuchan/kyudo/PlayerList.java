@@ -36,7 +36,9 @@ public class PlayerList extends DialogFragment {
         listView = (ListView)root.findViewById(R.id.playerlist);
         homefragmenttext = (TextView)root.findViewById(R.id.textView3);
         RealmResults<Player> realmResults = realm.where(Player.class).findAll();
+        RealmResults<Playerafter> realmResults1 = realm.where(Playerafter.class).findAll();
         PlayerListAdapter adapter = new PlayerListAdapter(realmResults);
+
         listView.setAdapter(adapter);
 
 
